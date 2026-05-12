@@ -33,7 +33,7 @@ git clone https://github.com/Marvellbrazil/SKARIGA
 cd SKARIGA
 
 # Copy .env
-cp .env.prod.example
+cp .env.prod.example .env
 
 # Install vendor and generate key for .env
 composer install
